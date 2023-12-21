@@ -2530,20 +2530,20 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub là script mới và free<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub is a new and free script<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub là Hub ngon hơn Night Hub<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub is better than Night Hub<Color=/>"):Display()
     wait(.14)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Bắc Trung Nam 1 Nhà <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Bắc Trung Nam 1 Nhà❤ <Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Made By:   Lamm <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Made By:   Lamm✔ <Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Skid Hub", HidePremium = false, IntroText = "SkidHub Library", SaveConfig = true, ConfigFolder = "Night Hub"})
+local Window = OrionLib:MakeWindow({Name = "Skid Hub", HidePremium = false, IntroText = "Skid Hub", SaveConfig = true, ConfigFolder = "Skid Hub"})
 
 OrionLib:MakeNotification({
 	Name = "Skid Hub",
@@ -2664,9 +2664,9 @@ local Section = W:AddSection({
     Name = "Update"
 })
 
-W:AddLabel("[+] Skid Hub is back!")
-W:AddLabel("[+] Skid Hub On Top!")
-W:AddLabel("[+] I Will overcome Hirimii,MTriet Hub!!!")
+W:AddLabel("[+] Skid Hub has arrived!")
+W:AddLabel("[+] Facebook:  Nguyễn Lâm!")
+W:AddLabel("[+] Night Tuổi Lồn = Bố")
 W:AddLabel("[+] Load Script Faster!")
 
 local Section = W:AddSection({
