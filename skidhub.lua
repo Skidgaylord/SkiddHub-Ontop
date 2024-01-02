@@ -2532,7 +2532,7 @@ spawn(function()
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub is a new and free script<Color=/>"):Display()
     wait(.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Skid Hub is better than Night Hub<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Hello Bro<Color=/>"):Display()
     wait(.14)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
@@ -2666,7 +2666,7 @@ local Section = W:AddSection({
 
 W:AddLabel("[+] Skid Hub has arrived!")
 W:AddLabel("[+] Facebook:  Nguyễn Lâm!")
-W:AddLabel("[+] Night Tuổi Lồn = Bố")
+W:AddLabel("[+] Cảm ơn vì đã thử dùng nó")
 W:AddLabel("[+] Load Script Faster!")
 
 local Section = W:AddSection({
